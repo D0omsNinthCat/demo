@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: 8082
 
 spring:
   datasource:
-    url: jdbc:derby:db_test;create=true
+    url: jdbc:derby:db_cars;create=true
   jpa:
     generate-ddl: true
     hibernate:
